@@ -1,0 +1,112 @@
+html {
+  background-color: whitesmoke;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: whitesmoke;
+}
+.bg-gray {
+  background-color: gray;
+}
+.main-content {
+  position: relative;
+  top: 3rem;
+}
+.center {
+  text-align: center;
+}
+h1,
+h2 {
+  font-family: Pacifico;
+  font-weight: bold;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+}
+/* Header */
+header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo img {
+  flex: 1;
+  width: 25%;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+nav li {
+  padding-left: 2rem;
+}
+nav a {
+  vertical-align: center;
+  line-height: 1.6;
+  text-decoration: none;
+}
+/* Banner */
+.banner {
+  display: flex;
+  height: 50rem;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#ad {
+  position: relative;
+  border: solid 1px;
+  border-radius: 1rem;
+}
+#ad .content {
+  width: 25rem;
+  margin: 4rem;
+}
+/* Mission Statement */
+
+/* Our Products */
+
+.all-phones-logos {
+  width: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.all-phones-logos img {
+  max-width: 20%;
+  padding: 2%;
+}
+/* Our Team */
+.all-team-photos {
+  width: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.all-team-photos img {
+  max-width: 20%;
+  padding: 2%;
+}
+/* Footer */
+footer {
+  padding: 2rem 2rem;
+}
+
+footer .content {
+  color: white;
+  display: flex;
+  font-size: 1rem;
+}
+
+footer .copyright {
+  flex-grow: 1;
+}
